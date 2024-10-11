@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Windows;
 using Path = System.IO.Path;
 
-namespace VR_Autiverse
+namespace VRAutiverse
 {
     enum LauncherStatus
     {
@@ -60,7 +60,7 @@ namespace VR_Autiverse
             rootPath = Directory.GetCurrentDirectory();
             versionFile = Path.Combine(rootPath, "Version.txt");
             gameZip = Path.Combine(rootPath, "Build.zip");
-            gameExe = Path.Combine(rootPath, "Build", "VR Autiverse.exe");
+            gameExe = Path.Combine(rootPath, "Build", "VR Autism.exe");
         }
 
         private void CheckForUpdates()
@@ -115,9 +115,12 @@ namespace VR_Autiverse
 
                 }
 
+                var url = @"C:\Users\Dell\Downloads\Build.zip";
+                // var url = "https://www.dropbox.com/scl/fi/7kd0hcq3nlnlkh65soa8f/Build.zip?rlkey=1gt9nfsqzhc7993ulylrshbda&st=4j6ddsx5&dl=0";
+                
                 webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(DownloadGameCompletedCallback);
                 webClient.DownloadFileAsync(
-                    new Uri("https://www.dropbox.com/scl/fi/7kd0hcq3nlnlkh65soa8f/Build.zip?rlkey=1gt9nfsqzhc7993ulylrshbda&st=4j6ddsx5&dl=0"),
+                    new Uri(url),
                     gameZip, onlineVersion);
             }
             catch (Exception ex)

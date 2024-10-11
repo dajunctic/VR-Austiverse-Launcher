@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Autiverse", "VR Autiverse\VR Autiverse.csproj", "{B211E04E-8DF2-43EC-8D4E-112EBCA400BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRAutiverse", "VRAutiverse\VRAutiverse.csproj", "{B211E04E-8DF2-43EC-8D4E-112EBCA400BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
