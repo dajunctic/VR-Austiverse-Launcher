@@ -2,10 +2,44 @@
 
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
-        <TargetFramework>net7.0-windows</TargetFramework>
+        <TargetFramework>net8.0-windows</TargetFramework>
         <RootNamespace>VRAutiverse</RootNamespace>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\bg.png" />
+      <None Remove="Assets\Fonts\nasalization-rg.otf" />
+      <None Remove="Assets\Fonts\OpenSans-Regular.ttf" />
+      <None Remove="Assets\Fonts\OpenSans-SemiBold.ttf" />
+      <None Remove="Assets\Fonts\Raleway-Medium.ttf" />
+      <None Remove="Assets\Fonts\Raleway-SemiBold.ttf" />
+      <None Remove="Assets\Fonts\Roboto-Medium.ttf" />
+      <None Remove="Assets\Fonts\Roboto-Regular.ttf" />
+      <None Remove="Assets\Fonts\Saira-Regular.ttf" />
+      <None Remove="Assets\Fonts\Saira-SemiBold.ttf" />
+      <None Remove="Assets\icon.ico" />
+      <None Remove="Assets\icon.png" />
+      <None Remove="Assets\shutdown_def.png" />
+      <None Remove="Assets\shutdown_mo.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="Assets\bg.png" />
+      <Resource Include="Assets\Fonts\nasalization-rg.otf" />
+      <Resource Include="Assets\Fonts\OpenSans-Regular.ttf" />
+      <Resource Include="Assets\Fonts\OpenSans-SemiBold.ttf" />
+      <Resource Include="Assets\Fonts\Raleway-Medium.ttf" />
+      <Resource Include="Assets\Fonts\Raleway-SemiBold.ttf" />
+      <Resource Include="Assets\Fonts\Roboto-Medium.ttf" />
+      <Resource Include="Assets\Fonts\Roboto-Regular.ttf" />
+      <Resource Include="Assets\Fonts\Saira-Regular.ttf" />
+      <Resource Include="Assets\Fonts\Saira-SemiBold.ttf" />
+      <Resource Include="Assets\icon.ico" />
+      <Resource Include="Assets\icon.png" />
+      <Resource Include="Assets\shutdown_def.png" />
+      <Resource Include="Assets\shutdown_mo.png" />
+    </ItemGroup>
 
 </Project>

@@ -1,9 +1,18 @@
 ﻿<Application x:Class="VR_Autiverse.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:VR_Autiverse"
+             xmlns:local="clr-namespace:VRAutiverse"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Font.xaml" />
+                <ResourceDictionary Source="Images.xaml" />
+                <ResourceDictionary Source="Style.xaml"></ResourceDictionary>
+              
+            
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
