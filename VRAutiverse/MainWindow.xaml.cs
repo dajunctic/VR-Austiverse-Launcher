@@ -66,7 +66,7 @@ namespace VRAutiverse
             rootPath = Directory.GetCurrentDirectory();
             versionFile = Path.Combine(rootPath, "Version.txt");
             gameZip = Path.Combine(rootPath, "Build.zip");
-            gameExe = Path.Combine(rootPath, "Build", "VR Autism.exe");
+            gameExe = Path.Combine(rootPath, "Build", "VR Autiverse.exe");
         }
 
         private void ExitBtn_Click(object sender, EventArgs e)
